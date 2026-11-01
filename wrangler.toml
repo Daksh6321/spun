@@ -1,3 +1,4 @@
+workers_dev = true
 name = "spun-moviebox"
 main = "src/index.ts"
 compatibility_date = "2024-11-01"
@@ -27,8 +28,3 @@ NIGERIA_IP = "197.211.52.65"
 [[kv_namespaces]]
 binding = "MOVIEBOX_SESSION_KV"
 id = "4c3f707157f84af4b1504c81c046bea0"
-
-[[routes]]
-# Update with your actual Cloudflare zone if using custom domain
-pattern = "moviebox.byspun.xyz/*"
-zone_name = "byspun.xyz"
